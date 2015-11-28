@@ -1,0 +1,193 @@
+.htmlForm
+{
+    display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+    width: 880px;
+}
+.htmlForm td{
+    font-family:Verdana, Arial, Helvetica, sans-serif;  
+     text-align:left;
+    height:24px;
+       text-decoration:none;
+}
+.htmlForm tr   
+{ 
+    text-align:center;
+    height:55px;
+}
+.htmlForm input,select{
+   color: #000;
+border: 1px solid #007acc;
+padding: 5px;
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+font-size:19px;
+border-radius: 2px
+}
+ 
+.formHeading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:23px;
+    font-weight:bold;
+    color:#CC3300;
+    padding:10px 20px;
+    text-decoration:none;
+}
+ 
+.style1
+{
+    text-align:center;
+    }
+    .htmlF tr{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#CC3300;
+    border-bottom:0px #EAE3C8 solid;
+     width:189px;
+    text-align:left;
+    height:33px;
+    text-decoration:none;
+}
+.searchbox { font-size: 12px;
+background-color: #FFFCED;
+border: 1px solid #CCC;
+margin-bottom: 2px;
+font-weight: bold;
+font-family: Segoe UI;
+color: #0F3B74;
+border-radius: 3px; }
+	.searchbox table { margin: 0; }
+	.searchbox select { min-width: 120px; }
+	.searchbox input[type="text"] { padding: 4px; }
+
+	.searchbox td { padding: 4px; }
+
+	.searchbox strong { color: rgb(245, 81, 40); }
+		 
+	
+	.html td{
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    
+    border-bottom:1px #00000 solid; 
+       text-align:left; 
+       text-decoration:none;
+       height:12px;        
+}
+.html tr   
+{ 
+    text-align:center;
+    height:18px;   
+}
+.html input,select{  
+   width:155px;
+   font-size:12px;         
+       }
+       
+   
+   .htmlsmall td{
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    border-bottom:1px #00000 solid; 
+       text-align:left; 
+       text-decoration:none;
+       height:8px;        
+}
+.htmlsmall tr   
+{ 
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#CC3300;
+    border-bottom:0px #EAE3C8 solid;
+     width:189px;
+    text-align:left;
+    height:33px;
+    text-decoration:none;
+}
+.htmlsmall input,select{  
+   width:44px;
+}     
+       
+       
+  .user
+       {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;   
+            }
+  .user td{
+  font-family:Verdana, Arial, Helvetica, sans-serif; 
+  border-bottom:1px #00000 solid; 
+  text-align:left; 
+  text-decoration:none;
+          
+}
+.user tr   
+{ 
+    text-align:center;
+    
+}
+.user input,select  
+{
+color: #333;
+border: 1px solid #007acc;
+padding: 5px;
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+font-size:14px;
+border-radius: 2px;
+} 
+ .Error {
+	 
+	color:Green;
+}
+
+.ErrorMsg {
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	position: absolute;
+}
+
+.display-error
+{
+   width: 200px;
+   border: 1px solid #D8D8D8;
+   padding: 5px;
+   border-radius: 5px;
+   font-family: Arial;
+   font-size: 11px;
+   text-transform: uppercase;
+   background-color: rgb(255, 249, 242);
+   color: rgb(211, 0, 0);
+   text-align: center;
+}
+ 
+img
+{
+   float: left;
+}
+ 
+.display-success
+{
+   width: 200px;
+   border: 1px solid #D8D8D8;
+   padding: 10px;
+   border-radius: 5px;
+   font-family: Arial;
+   font-size: 11px;
+   text-transform: uppercase;
+   background-color: rgb(236, 255, 216);
+   color: green;
+   text-align: center;
+   margin-top: 30px;
+}
+ 
+#display-success img
+{
+   position: relative;
+   bottom: 5px;
+} 
+.left
+{
+    margin-left:350px;    
+}

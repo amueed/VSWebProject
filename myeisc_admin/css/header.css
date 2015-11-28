@@ -1,0 +1,85 @@
+﻿.ekmGlobalHeaderBar .ib{display:-moz-inline-stack; display:inline-block;zoom:1; *display:inline; vertical-align:middle}
+.ekmGlobalHeaderBar .gradient{background:.fff; background:-moz-linear-gradient(top,.fff 20%,.e7f1f9 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,.fff),color-stop(100%,.e7f1f9)); background:-webkit-linear-gradient(top,.fff 20%,.e7f1f9 100%);background:-o-linear-gradient(top,.fff 20%,.e7f1f9 100%); background:-ms-linear-gradient(top,.fff 20%,.e7f1f9 100%); background:linear-gradient(to bottom,.fff 20%,.e7f1f9 100%); filter:progid:dximagetransform.microsoft.gradient(startColorstr=.ffffff,endColorstr=.e7f1f9,GradientType=0)}
+.ekmGlobalHeaderBar div.globalHeader {background:.fff;background:-moz-linear-gradient(top,.fff 20%,.e7f1f9 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,.fff),color-stop(100%,.e7f1f9));background:-webkit-linear-gradient(top,.fff 20%,.e7f1f9 100%);background:-o-linear-gradient(top,.fff 20%,.e7f1f9 100%);background:-ms-linear-gradient(top,.fff 20%,.e7f1f9 100%);background:linear-gradient(to bottom,.fff 20%,.e7f1f9 100%);filter:progid:dximagetransform.microsoft.gradient(startColorstr=.ffffff,endColorstr=.e7f1f9,GradientType=0);font-family:'museo-sans','Trebuchet MS' Arial;font-weight:500;position:relative;z-index:2;font-size:14px}
+.ekmGlobalHeaderBar div.globalHeader .logo {float:left; margin-top:5px; font-size:12px; margin:20px 0 0;} 
+.ekmGlobalHeaderBar div.globalHeader .logo div.logged-in{color:.8d8d8d; position:relative; margin-top:-10px; background:url(../images/header/logged-in-lock.png) no-repeat left center;padding-left:18px}
+.ekmGlobalHeaderBar div.globalHeader .logo div.logged-in span.un{color:.565656}
+.ekmGlobalHeaderBar div.globalHeader .logo div.logged-in a{color:.026ac2}
+.ekmGlobalHeaderBar div.globalHeader .logo div.logged-in a:hover{text-decoration:none}
+
+.ekmGlobalHeaderBar div.globalHeader nav.buttons{float:right}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons ul,div.globalHeader nav.buttons li{padding:0; list-style:none; margin: 16px 0 0;} 
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li{display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline; vertical-align:middle; width:70px; text-align:center; font-size:12px; position:relative; margin:0px 0 0;}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li a{text-decoration:none; display:block; color:.525252; cursor:pointer}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li a:active i{box-shadow:inset 0 1px 3px rgba(0,0,0,0.3),0 1px 0 rgba(255,255,255,0.6)}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li a i{width:50px; height:50px; margin:0 auto 10px; display:block; background:url(../images/header/icons.png) no-repeat left top; border-radius:2px; box-shadow:0 1px 2px rgba(0,0,0,0.2)}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li a span.arrow{display:none; position:absolute; width:0; height:0; border-left:7px solid transparent; border-right:7px solid transparent; border-top:7px solid .376fd4; top:50px; left:50%; margin-left:-7px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.shop:hover i{background-position:-53px 0}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.shop:hover a{color:.376fd4}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.shop.active a{color:.376fd4}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.shop i{background-position:-1px 0}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.shop span.arrow{border-top-color:.376fd4}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.customers:hover i{background-position:-53px -52px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.customers:hover a{color:.ff8b00}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.customers.active a{color:.ff8b00}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.customers i{background-position:-1px -52px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.customers span.arrow{border-top-color:.ff8b00}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.marketing:hover i{background-position:-53px -104px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.marketing:hover a{color:.d4378c}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.marketing.active a{color:.d4378c}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.marketing i{background-position:-1px -104px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.marketing span.arrow{border-top-color:.d4378c}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.community:hover i{background-position:-53px -156px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.community:hover a{color:.49b600}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.community.active a{color:.49b600}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.community i{background-position:-1px -156px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.community span.arrow{border-top-color:.49b600}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.design:hover i{background-position:-53px -208px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.design:hover a{color:.cf0101}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.design.active a{color:.cf0101}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.design i{background-position:-1px -208px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.design span.arrow{border-top-color:.cf0101}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.features:hover i{background-position:-53px -260px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.features:hover a{color:.8401ff}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.features.active a{color:.8401ff}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.features i{background-position:-1px -260px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.features span.arrow{border-top-color:.8401ff}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.settings:hover i{background-position:-53px -312px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.settings:hover a{color:.4b4b4b}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.settings.active a{color:.4b4b4b}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.settings i{background-position:-1px -312px}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.settings span.arrow{border-top-color:.4b4b4b}
+.ekmGlobalHeaderBar div.globalHeader nav.buttons li.active span.arrow{display:block}
+
+.ekmGlobalHeaderBar nav.top-nav{background:.f8f8f8;border-top:solid 1px .dae6f4;box-shadow:inset 0 1px 0 rgba(255,255,255,0.6),0 1px 4px rgba(0,0,0,0.3)}
+.ekmGlobalHeaderBar nav.top-nav ul,nav.top-nav li{margin:0;padding:0;list-style:none}
+
+.ekmGlobalHeaderBar nav.top-nav ul, .ekmGlobalHeaderBar .headerBarPadding { height:48px; }
+.ekmGlobalHeaderBar nav.top-nav ul{font-size:0;box-shadow:inset 1px 0 0 .fff; overflow: hidden;}
+.ekmGlobalHeaderBar nav.top-nav .left-links{float:left;border-left: solid 1px .B4C7DD;}
+.ekmGlobalHeaderBar nav.top-nav .right-links{float:right;border-left:solid 1px .dae6f4}
+.ekmGlobalHeaderBar nav.top-nav li{display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;vertical-align:middle;border-right:solid 1px .dae6f4;font-size:13px;line-height:48px;box-shadow:1px 0 0 .fff}
+.ekmGlobalHeaderBar nav.top-nav li img{display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline; vertical-align:middle; margin-right:10px}
+.ekmGlobalHeaderBar nav.top-nav li span{display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline; vertical-align:middle}
+.ekmGlobalHeaderBar nav.top-nav li a{color:.525252;text-decoration:none;display:block; padding:0 15px}
+.ekmGlobalHeaderBar nav.top-nav ul.left-links li:hover {background:.fff}
+.ekmGlobalHeaderBar nav.top-nav ul.left-links li:hover a{color:.026ac2}
+.ekmGlobalHeaderBar nav.top-nav li.linksRight:hover {background:.fff}
+.ekmGlobalHeaderBar nav.top-nav li.linksRight:hover a{color:.026ac2}
+.ekmGlobalHeaderBar nav.top-nav li.linksRight { cursor: pointer; }
+.ekmGlobalHeaderBar nav.top-nav li.linksRightDisabled { opacity: 0.3; cursor: default; }
+.ekmGlobalHeaderBar nav.top-nav li.Selected {background:.fff}
+
+.ekmGlobalHeaderBar .headerBarWidth { width: 980px; margin: 0 auto; }
+.ekmGlobalHeaderBar .headerBarHeight { height:105px; padding:0 0; }
+.ekmGlobalHeaderBar .headerBar { min-width:778px; position:fixed; z-index:1000; width:100%; }
+
+.ekmGlobalHeaderBar .hidebutton { min-width: 90px; }
+
+.ekmGlobalHeaderBar .top-nav .right-links span.showHideButton { float: right; }
+.ekmGlobalHeaderBar .top-nav .right-links span.showHideButton li { border-right: none; box-shadow: none; }
+.ekmGlobalHeaderBar .top-nav .right-links span.showHideButton ul { border-right:solid 1px .dae6f4; padding: 0 8px 0 15px; }
+.ekmGlobalHeaderBar .top-nav .right-links span.showHideButton li.editButtonsLabel { padding: 0 7px 0 0px; margin-right: 1px;  }
+.ekmGlobalHeaderBar .top-nav .right-links span.showHideButton li.editButtonsIcons { padding: 0px 7px 0 0; }
+.ekmGlobalHeaderBar .top-nav .right-links span.showHideButton li.editButtonsIcons a { padding:0; }
+.ekmGlobalHeaderBar .top-nav .right-links span.showHideButton .LinksRightCheckMark { margin: 7px 0 -1px -17px; padding: 0; vertical-align: top; }

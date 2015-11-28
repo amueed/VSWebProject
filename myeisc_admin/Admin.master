@@ -1,0 +1,347 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="AdminPanel_Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <!--http://preview.oklerthemes.com/porto/3.1.1/index.html AMIR-->
+<!-- Basic -->
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Myesico</title>
+<!-- InstanceEndEditable -->
+<meta name="keywords" content="HTML5 Template" />
+<meta name="description" content="Porto - Responsive HTML5 Template">
+<meta name="author" content="okler.net">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Web Fonts  -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+<!-- Libs CSS -->
+
+
+
+<link href="font-awesome-4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+    <style style="text/css">
+        .high tr:hover
+        {
+            background-color: #b8d1f3;
+            border-bottom: #4e95f4 1px solid;
+            border-top: #4e95f4 1px solid;
+        }
+    </style>
+ 
+ <link href="css/font-awesome-ie7.css" rel="stylesheet" type="text/css" />
+    <link href="css/sheet.css" rel="stylesheet" type="text/css" />
+    <link href="css/MenuStyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/pagination.css" rel="stylesheet" type="text/css" />
+    <link href="css/MenuStyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/Dialog.css" rel="stylesheet" type="text/css" />
+    <link href="css/sheet.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/screen.css" rel="stylesheet" type="text/css" />
+    <link href="css/button.css" rel="stylesheet" type="text/css" />
+    <link href="css/form.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+    <script src="js/sprintf-0.7-beta1.min.js" type="text/javascript"></script>
+    <link href="css/new.css" rel="stylesheet" type="text/css" />
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/MenuStyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="demo/style12.css" rel="stylesheet" type="text/css" />
+    <script src="demo/fitdivs.js" type="text/javascript"></script>
+    <script src="demo/fhmm.js" type="text/javascript"></script>
+    <link href="demo/fhmm.css" rel="stylesheet" type="text/css" />
+    <script src="demo/bootstrap.min.js" type="text/javascript"></script>
+    <link href="demo/bootstrap.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="vendor/bootstrap/css/owl.carousel.css" media="screen">
+<link rel="stylesheet" href="vendor/bootstrap/css/owl.theme.css" media="screen">
+<link rel="stylesheet" href="vendor/bootstrap/css/magnific-popup.css" media="screen">
+<link rel="stylesheet" href="vendor/bootstrap/css/jquery.isotope.css" media="screen">
+<link rel="stylesheet" href="vendor/bootstrap/css/mediaelementplayer.css" media="screen">
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="vendor/bootstrap/css/theme.css">
+<link rel="stylesheet" href="vendor/bootstrap/css/theme-elements.css">
+<link rel="stylesheet" href="vendor/bootstrap/css/theme-blog.css">
+<link rel="stylesheet" href="vendor/bootstrap/css/theme-shop.css">
+<link rel="stylesheet" href="vendor/bootstrap/css/theme-animate.css">
+
+<!-- Current Page CSS -->
+<link rel="stylesheet" href="vendor/bootstrap/css/settings.css" media="screen">
+<link rel="stylesheet" href="vendor/bootstrap/css/component.css" media="screen">
+
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="vendor/bootstrap/css/theme-responsive.css" />
+
+<!-- Skin CSS -->
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/default.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="vendor/bootstrap/css/custom.css">
+
+<!-- Head Libs -->
+<script src="vendor/js/modernizr.js"></script>
+
+<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+<!--[if lte IE 8]>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+
+<link href="font-awesome-4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+   
+   <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="body">
+
+  <header id="header">
+
+  
+    <div class="container">
+   <%--<ul id="pill">
+			<li class="leftnav"><a accesskey="l" href="LogOut.aspx"><em>L</em>ogout</a></li>
+			<li class="rightnav"><a href="#"> Welcome <strong> </strong>!</a></li>
+		</ul>--%>
+    <h1><span style="color:#007acc">myesico</span><span style="color:#e70516"> Builders</h1></span>
+        <p>Content Management System</p> 
+      
+   <!--<div class="search">
+     
+   <ul class="social-icons">
+
+          <li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
+          <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+          <li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
+        </ul>
+        
+      </div>-->
+     
+      <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse"> <i class="icon icon-bars"></i> </button>
+    </div>
+    <div class="navbar-collapse nav-main-collapse collapse">
+      <div class="container">
+        
+                                                                              
+        <nav class="nav-main mega-menu">
+          <ul class="nav nav-pills nav-main" id="mainMenu">
+            <li class=" active"> <a class="dropdown-toggle" href="Pages.aspx"> Pages <i class="icon icon-angle-down"></i> </a>
+            
+            </li>
+            
+            <li> <a class="dropdown-toggle" href="Setting.aspx"> Settings <i class="icon icon-angle-down"></i> </a>
+            </li>
+               <li class="dropdown " runat="server" id="Li1" > <a  class="dropdown-toggle" href="Sliderimages.aspx"> Homepage <i class="icon icon-angle-down"></i> </a>
+              
+                <ul class="dropdown-menu">
+										<li><a href="Sliderimages.aspx">Slide Show</a></li>
+                                        <li><a href="HomepageProjects.aspx">Homepage Projects</a></li>
+                                         <li><a href="Gallery.aspx">Gallery</a></li>
+                                         <li><a href="News.aspx">News</a></li>
+                                          <li><a href="Logo_title.aspx">Page Title and logo</a></li>
+									</ul>
+
+            </li>
+              <li runat="server" id="Li2"  > <a  class="dropdown-toggle" href="AllProjects.aspx"> Projects  <i class="icon icon-angle-down"></i> </a>
+              
+            </li>
+
+           
+            <li class="dropdown " runat="server" id="loginmaster" > <a  class="dropdown-toggle" href="Users.aspx"> Users  <i class="icon icon-angle-down"></i> </a>
+              
+                <ul class="dropdown-menu">
+										<li><a href="Users.aspx">Admin Users</a></li>
+                                        <li><a href="Callbackrequests.aspx">Requests For Callback</a></li>
+									
+                                      
+									</ul>
+
+
+
+            </li>
+            
+           
+           
+               <li runat="server" id="logoutmaster"  > <a  class="dropdown-toggle" href="LogOut.aspx"> Logout  <i class="icon icon-angle-down"></i> </a>
+              
+            </li>
+           
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div role="main" class="main">
+  <!-- InstanceBeginEditable name="EditRegion3" -->
+   <form id="Form2" runat="server"> 
+    <section runat="server" id="topbar" class="page-top">
+					<div class="container">
+						<div class="row">
+
+
+                      
+							<div class="col-md-12">
+
+
+                           <%--  <ul class="breadcrumb">
+									<li><a href="#">Home</a></li>
+                                     <li><a href="#">About Us<span></span></a></li>
+                                          <li><a href="#">Banks Account Data in Profile<span></span></a></li>
+                                
+                      <li><a href="#">Withdrwal<span></span></a></li>
+                      <li><a href="#">FAQ’s<span></span></a></li>
+                      <li> <a href="#">Advertise<span></span></a></li>
+                      <li> <a href="Frenchise-Signup.aspx">Franchiser Sing Up<span></span></a></li>
+                      <li> <a href="#"> News<span></span></a></li>
+                     
+								</ul>--%>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h2>
+                                
+                                
+                                 <asp:ContentPlaceHolder ID="title" runat="server"/>
+                                
+                                
+                                
+                                </h2>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+
+   
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+   </div>
+   </form>
+  
+  <!-- InstanceEndEditable --></div>
+<!--  ==============BLACK COLOM=============--> 
+ <footer id="footer">
+
+    <div  class="footer-copyright">
+      <div class="container">
+        <div class="row">
+        <%--  <div class="col-md-1"> <a href="main.html" class="logo"> <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png"> </a> </div>--%>
+          <div class="col-md-7">
+            <p>Copyright © 2014  Myesico. Designed by <a href="https://www.facebook.com/upset.life" target="_blank">Shoaib Hayat</a>.</p>
+          </div>
+          <div class="col-md-4">
+          
+            <nav id="sub-menu">
+          <%--  <div class="social-icons">
+								<ul class="social-icons">
+									<li class="facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Facebook">Facebook</a></li>
+									<li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Twitter">Twitter</a></li>
+									<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Linkedin">Linkedin</a></li>
+								</ul>
+							</div>--%>
+              <!--<ul>
+                <li><a href="page-faq.html">FAQ's</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+              </ul>-->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- Libs --> 
+<script src="vendor/js/jquery.js"></script> 
+<script src="vendor/js/jquery.appear.js"></script> 
+<script src="vendor/js/jquery.easing.js"></script> 
+<script src="vendor/js/jquery.cookie.js"></script> 
+<script src="vendor/js/style.switcher.js"></script> 
+<script src="vendor/js/bootstrap.js"></script> 
+<script src="vendor/js/jquery.validate.js"></script> 
+<script src="vendor/js/jquery.stellar.js"></script> 
+<script src="vendor/js/jquery.knob.js"></script> 
+<script src="vendor/js/jquery.gmap.js"></script> 
+<script src="vendor/js/twitter.js"></script> 
+<script src="vendor/js/jquery.isotope.js"></script> 
+<script src="vendor/js/owl.carousel.js"></script> 
+<script src="vendor/js/jflickrfeed.js"></script> 
+<script src="vendor/js/magnific-popup.js"></script> 
+<script src="vendor/js/mediaelement-and-player.js"></script> 
+
+<!-- Theme Initializer --> 
+<script src="vendor/js/theme.plugins.js"></script> 
+<script src="vendor/js/theme.js"></script> 
+
+<!-- Current Page JS --> 
+<script src="vendor/js/jquery.themepunch.tools.min.js"></script> 
+<script src="vendor/js/jquery.themepunch.revolution.js"></script> 
+<script src="vendor/js/jquery.flipshow.js"></script> 
+<script src="vendor/js/view.home.js"></script> 
+
+<!-- Custom JS --> 
+<script src="vendor/js/custom.js"></script> 
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-42715764-5']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    $(function () {
+        $('.abcd').click(function () {
+            $('.abcd').removeClass("red").addClass("black");
+            $(this).removeClass("black").addClass("red");
+        });
+    });
+		</script>
+            <asp:ContentPlaceHolder ID="ScriptsCPH" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+

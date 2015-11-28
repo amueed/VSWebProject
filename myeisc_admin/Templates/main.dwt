@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+
+<head>
+<!--http://preview.oklerthemes.com/porto/3.1.1/index.html AMIR-->
+<!-- Basic -->
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>VISIT4PAISA</title>
+<!-- TemplateEndEditable -->
+<meta name="keywords" content="HTML5 Template" />
+<meta name="description" content="Porto - Responsive HTML5 Template">
+<meta name="author" content="okler.net">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Web Fonts  -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+<!-- Libs CSS -->
+
+<link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="../vendor/bootstrap/css/owl.carousel.css" media="screen">
+<link rel="stylesheet" href="../vendor/bootstrap/css/owl.theme.css" media="screen">
+<link rel="stylesheet" href="../vendor/bootstrap/css/magnific-popup.css" media="screen">
+<link rel="stylesheet" href="../vendor/bootstrap/css/jquery.isotope.css" media="screen">
+<link rel="stylesheet" href="../vendor/bootstrap/css/mediaelementplayer.css" media="screen">
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="../vendor/bootstrap/css/theme.css">
+<link rel="stylesheet" href="../vendor/bootstrap/css/theme-elements.css">
+<link rel="stylesheet" href="../vendor/bootstrap/css/theme-blog.css">
+<link rel="stylesheet" href="../vendor/bootstrap/css/theme-shop.css">
+<link rel="stylesheet" href="../vendor/bootstrap/css/theme-animate.css">
+
+<!-- Current Page CSS -->
+<link rel="stylesheet" href="../vendor/bootstrap/css/settings.css" media="screen">
+<link rel="stylesheet" href="../vendor/bootstrap/css/component.css" media="screen">
+
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="../vendor/bootstrap/css/theme-responsive.css" />
+
+<!-- Skin CSS -->
+<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/default.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="../vendor/bootstrap/css/custom.css">
+
+<!-- Head Libs -->
+<script src="../vendor/js/modernizr.js"></script>
+
+<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+<!--[if lte IE 8]>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+
+<link href="../font-awesome-4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div class="body">
+  <header id="header"> 
+
+  
+    <div class="container">
+   
+      <h1 class="logo"> <a href="../index.html"> <img src="../img/logo.png" width="245" height="41"></a> </h1>
+       <h1 class="logo1"> <a href="../main.html"> <img src="../img/logo.png"> </a> </h1>
+      
+   <!--<div class="search">
+     
+   <ul class="social-icons">
+
+          <li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
+          <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+          <li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
+        </ul>
+        
+      </div>-->
+     
+      <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse"> <i class="icon icon-bars"></i> </button>
+    </div>
+    <div class="navbar-collapse nav-main-collapse collapse">
+      <div class="container">
+        
+                                                                              
+        <nav class="nav-main mega-menu">
+          <ul class="nav nav-pills nav-main" id="mainMenu">
+            <li class=" active"> <a class="dropdown-toggle" href="../index.html"> Home <i class="icon icon-angle-down"></i> </a>
+             
+            </li>
+            
+            <li> <a class="dropdown-toggle" href="../view-ads.html"> View Ads  <i class="icon icon-angle-down"></i> </a>
+             
+            </li>
+            <li > <a class="dropdown-toggle" href="#"> Login   <i class="icon icon-angle-down"></i> </a>
+              
+            </li>
+            <li> <a class="dropdown-toggle" href="#"> Register <i class="icon icon-angle-down"></i> </a>
+              
+            </li>
+            <li> <a class="dropdown-toggle" href="#"> Tos <i class="icon icon-angle-down"></i> </a>
+             <li> <a class="dropdown-toggle" href="#">  Advertise  <i class="icon icon-angle-down"></i> </a>
+              <li> <a class="dropdown-toggle" href="../franchise.html"> Franchise<i class="icon icon-angle-down"></i> </a>
+              
+            </li>
+            <li > <a class="dropdown-toggle" href="#"> Contact Us <i class="icon icon-angle-down"></i> </a>
+              
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div role="main" class="main">
+  <!-- TemplateBeginEditable name="EditRegion3" -->
+    <div class="slider-container">
+      <div class="slider" id="revolutionSlider">
+        <ul>
+          <li data-transition="fade" data-slotamount="13" data-masterspeed="300" > <img src="../img/slides/slide-bg.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+            <div class="tp-caption sft stb visible-lg"
+									 data-x="72"
+									 data-y="180"
+									 data-speed="300"
+									 data-start="1000"
+									 data-easing="easeOutExpo">
+              <!--<img src="img/slides/slide-title-border.png" alt="">-->
+            </div>
+            <div class="tp-caption top-label lfl stl"
+									 data-x="122"
+									 data-y="180"
+									 data-speed="300"
+									 data-start="500"
+									 data-easing="easeOutExpo">Earn</div>
+            <div class="tp-caption sft stb visible-lg"
+									 data-x="372"
+									 data-y="180"
+									 data-speed="300"
+									 data-start="1000"
+									 data-easing="easeOutExpo">
+              <!--<img src="img/slides/slide-title-border.png" alt="">-->
+            </div>
+            <div class="tp-caption main-label sft stb"
+									 data-x="50"
+									 data-y="250"
+									 data-speed="300"
+									 data-start="1500"
+									 data-easing="easeOutExpo">Money in </div>
+            <div class="tp-caption bottom-label sft stb"
+									 data-x="60"
+									 data-y="350"
+									 data-speed="500"
+									 data-start="2000"
+									 data-easing="easeOutExpo">Seconds</div>
+            <div class="tp-caption randomrotate"
+									 data-x="400"
+									 data-y="62"
+									 data-speed="500"
+									 data-start="2500"
+									 data-easing="easeOutBack"><img src="../img/slides/gril.png" width="665" height="432"></div>
+            <div class="tp-caption sfb"
+									 data-x="850"
+									 data-y="200"
+									 data-speed="400"
+									 data-start="3000"
+									 data-easing="easeOutBack">
+              <!--<img src="img/slides/slide-concept-2-2.png" alt="">-->
+            </div>
+            <div class="tp-caption sfb"
+									 data-x="820"
+									 data-y="170"
+									 data-speed="700"
+									 data-start="3150"
+									 data-easing="easeOutBack">
+              <!--<img src="img/slides/slide-concept-2-3.png" alt="">-->
+            </div>
+            <div class="tp-caption sfb"
+									 data-x="770"
+									 data-y="130"
+									 data-speed="1000"
+									 data-start="3250"
+									 data-easing="easeOutBack">
+              <!--<img src="img/slides/slide-concept-2-4.png" alt="">-->
+            </div>
+            <div class="tp-caption sfb"
+									 data-x="500"
+									 data-y="80"
+									 data-speed="600"
+									 data-start="3450"
+									 data-easing="easeOutExpo">
+              <!--<img src="img/slides/slide-concept-2-5.png" alt="">-->
+            </div>
+            <div class="tp-caption blackboard-text lfb "
+									 data-x="530"
+									 data-y="300"
+									 data-speed="500"
+									 data-start="3450"
+									 data-easing="easeOutExpo" style="font-size: 37px;">
+              <!--Think-->
+            </div>
+            <div class="tp-caption blackboard-text lfb "
+									 data-x="555"
+									 data-y="350"
+									 data-speed="500"
+									 data-start="3650"
+									 data-easing="easeOutExpo" style="font-size: 47px;">
+              <!--Outside-->
+            </div>
+            <div class="tp-caption blackboard-text lfb "
+									 data-x="580"
+									 data-y="400"
+									 data-speed="500"
+									 data-start="3850"
+									 data-easing="easeOutExpo" style="font-size: 32px;">
+              <!--The box :)-->
+            </div>
+          </li>
+          <!--    FIST LI END-->
+          <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" > <img src="../img/slides/slide-bg.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+            <div class="tp-caption fade"
+										 data-x="-100"
+										 data-y="62"
+										 data-speed="1500"
+										 data-start="500"
+										 data-easing="easeOutExpo"><img src="../img/slides/gril.png" width="665" height="432"></div>
+            <div class="tp-caption blackboard-text fade "
+										 data-x="180"
+										 data-y="180"
+										 data-speed="1500"
+										 data-start="1000"
+										 data-easing="easeOutExpo" style="font-size: 30px;">
+              <!--easy to-->
+            </div>
+            <div class="tp-caption blackboard-text fade "
+										 data-x="580"
+										 data-y="270"
+										 data-speed="1500"
+										 data-start="2000"
+										 data-easing="easeOutExpo" style="font-size: 62px;">Seconds</div>
+            <div class="tp-caption main-label sft stb"
+										 data-x="600"
+										 data-y="100"
+										 data-speed="300"
+										 data-start="1500"
+										 data-easing="easeOutExpo">Earn</div>
+            <div class="tp-caption bottom-label sft stb"
+										 data-x="560"
+										 data-y="200"
+										 data-speed="500"
+										 data-start="2000"
+										 data-easing="easeOutExpo">Money in</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <!-- TemplateEndEditable -->
+  <!-- TemplateBeginEditable name="EditRegion4" -->
+  <div class="home-intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="news">
+            <h2 class="short word-rotator-title"> News Headlines
+              <div class="arrow-css"></div>
+              <strong class="inverted"> <span class="word-rotate"> <span class="word-rotate-items"> <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> <span>especially</span> <span>extremely</span></span></span></strong></h2>
+          </div>
+          <!--            <p> The fastest way to grow your business with the leader in <em>Technology.</em> <span>Check out our options and features included.</span> </p>
+-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- TemplateEndEditable -->
+  <!-- TemplateBeginEditable name="EditRegion5" -->
+  <div data-appear-animation="rotateInDownRight" class="container pg">
+    <div class="row" style="text-align:center ; margin-top:-57px">
+      <h4 style="color:#EB371D"><strong>Packages</strong></h4>
+      <hr>
+      <!--<hr class="tall">-->
+    </div>
+  </div>
+  <!-- TemplateEndEditable -->
+  <!-- TemplateBeginEditable name="EditRegion6" -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <!--   <h2>Our <strong>Features</strong></h2>-->
+        <div class="row">
+          <div data-appear-animation="fadeInLeft" class="col-md-6">
+            <div class="feature-box">
+              <div class="feature-box-info">
+                <div class="quick-links-outer">
+                  <div class="quick-links">
+                    <h3>Quick Links </h3>
+                    <ul>
+                      <li> <a href="#"><i class="fa fa-angle-right"></i>Home<span></span></a></li>
+                      <li><a href="#"><i class="fa fa-angle-right"></i>View Ads<span></span></a></li>
+                      <li> <a href="#"> <i class="fa fa-angle-right"></i>Login<span></span></a></li>
+                      <li> <a href="#"><i class="fa fa-angle-right"></i>Register<span></span></a></li>
+                      <li><a href="#"><i class="fa fa-angle-right"></i>TOS<span></span></a></li>
+                      <li><a href="#"><i class="fa fa-angle-right"></i>FAQ’s<span></span></a></li>
+                      <li> <a href="#"><i class="fa fa-angle-right"></i>Advertise<span></span></a></li>
+                      <li> <a href="#"><i class="fa fa-angle-right"></i>Franchise<span></span></a></li>
+                      <li> <a href="#"> <i class="fa fa-angle-right"></i>News<span></span></a></li>
+                      <li><a href="#"><i class="fa fa-angle-right"></i>Contact Us<span></span></a></li>
+                    </ul>
+                    <div class="arrow-css-red"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-box">
+              <div  data-appear-animation="fadeInDownBig" class="feature-box-info">
+                <div class="sliver abcd">
+                  <h3>Silver<br>
+                    Membership: <br>
+                    3,000 PKR</h3>
+                  <div class="duration">Duration: 3 Months
+                    <div class="view-all">VIEW ALL</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div data-appear-animation="fadeInUpBig" class="feature-box-info ">
+                <div class="sliver abcd">
+                  <h3>Platinum <br>
+                    Membership: <br>
+                    10, 000 PKR</h3>
+                  <div class="duration">Duration: 6 Months
+                    <div class="view-all">VIEW ALL</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!--/*  <h2>and more...</h2>*/-->
+        <div class="feature-box">
+          <div data-appear-animation="rotateInDownLeft" class="feature-box-info">
+            <div class="sliver abcd">
+              <h3>Gold<br>
+                Membership:<br>
+                5,000 PKR</h3>
+              <div class="duration">Duration: 6 Months
+                <div class="view-all">VIEW ALL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div data-appear-animation="rotateInUpRight" class="feature-box-info">
+            <div class="sliver abcd">
+              <h3>Diamond <br>
+                Membership: <br>
+                25, 000 PKR</h3>
+              <div class="duration">Duration: 6 Months
+                <div class="view-all">VIEW ALL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="tall" />
+  </div>
+  <!-- TemplateEndEditable -->
+  <!-- TemplateBeginEditable name="EditRegion7" -->
+  <div class="map-section">
+    <section class="featured footer map">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="arrow-css-blc"></div>
+            <!--   <h2>Our <strong>Features</strong></h2>-->
+            <div class="row">
+              <div  class="col-md-6">
+                <div data-appear-animation="rotateInDownRight" class="feature-box">
+                  <div class="feature-box-info">
+                    <div class="overview">
+                      <h3>Company Overview </h3>
+                      <ul>
+                        <li> Privately founded in September 2014</li>
+                        <li>2About 25,000 Clicks per day Target</li>
+                        <li> Fastest growing internet publicity affiliate network in Pakistan</li>
+                        <li> Precise campaign targeting to achieve specific advertising aims</li>
+                        <li> GeoTargeted campaign</li>
+                        <li> Fast and easy payouts to workers</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="feature-box" style="opacity:0.0">
+                  <div class="feature-box-info">
+                    <div class="sliver">
+                      <h3>Silver<br>
+                        Membership: <br>
+                        3,000 PKR</h3>
+                      <div class="duration">Duration: 3 Months
+                        <div class="view-all">VIEW ALL</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!--/*  <h2>and more...</h2>*/-->
+            <div class="feature-box">
+              <div data-appear-animation="rotateIn" class=" feature-box-info ">
+                <div class="member-login">
+                  <h3>Member Login</h3>
+                  <form action="" method="get">
+                    <input name="input" type="text" placeholder="Username">
+                    <br>
+                    <input name="input" type="text" placeholder="Password">
+                    <br>
+                    <input name="input" type="text" placeholder="Security Code">
+                    <br>
+                    <input name="input" class="sb" type="button"   value="Submit">
+                    <p style="text-align:right;text-align: center;
+margin: -42px;"> Not Registered?<br>
+                      Forgot your Password?</p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- TemplateEndEditable --></div>
+<!--  ==============BLACK COLOM=============--> 
+ <footer id="footer">
+    <div class="container">
+    <div data-appear-animation="rotateInUpLeft" class="row center ">
+        <div class="owl-carousel" data-plugin-options='{"items": 6, "singleItem": false, "autoPlay": true}'>
+          <div> <img class="img-responsive" src="../img/logos/logo-1.png" alt=""> </div>
+          <div> <img class="img-responsive" src="../img/logos/logo-2.png" alt=""> </div>
+          <div> <img class="img-responsive" src="../img/logos/logo-3.png" alt=""> </div>
+          <div> <img class="img-responsive" src="../img/logos/logo-4.png" alt=""> </div>
+          <div> <img class="img-responsive" src="../img/logos/logo-5.png" alt=""> </div>
+          <div> <img class="img-responsive" src="../img/logos/logo-6.png" alt=""> </div>
+          <div> <img class="img-responsive" src="../img/logos/logo-4.png" alt=""> </div>
+          <div> <img class="img-responsive" src="../img/logos/logo-2.png" alt=""> </div>
+        </div>
+      </div>
+      
+    </div>
+    <div  class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1"> <a href="../main.html" class="logo"> <img alt="Porto Website Template" class="img-responsive" src="../img/logo-footer.png"> </a> </div>
+          <div class="col-md-7">
+            <p>Copyright © 2014  VISIT4PAISA. Designed by <a href="http://pakistanwebhost.com/" target="_blank">PAKISTAN WEB HOST</a>.</p>
+          </div>
+          <div class="col-md-4">
+          
+            <nav id="sub-menu">
+            <div class="social-icons">
+								<ul class="social-icons">
+									<li class="facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Facebook">Facebook</a></li>
+									<li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Twitter">Twitter</a></li>
+									<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Linkedin">Linkedin</a></li>
+								</ul>
+							</div>
+              <!--<ul>
+                <li><a href="page-faq.html">FAQ's</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+              </ul>-->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- Libs --> 
+<script src="../vendor/js/jquery.js"></script> 
+<script src="../vendor/js/jquery.appear.js"></script> 
+<script src="../vendor/js/jquery.easing.js"></script> 
+<script src="../vendor/js/jquery.cookie.js"></script> 
+<script src="../vendor/js/style.switcher.js"></script> 
+<script src="../vendor/js/bootstrap.js"></script> 
+<script src="../vendor/js/jquery.validate.js"></script> 
+<script src="../vendor/js/jquery.stellar.js"></script> 
+<script src="../vendor/js/jquery.knob.js"></script> 
+<script src="../vendor/js/jquery.gmap.js"></script> 
+<script src="../vendor/js/twitter.js"></script> 
+<script src="../vendor/js/jquery.isotope.js"></script> 
+<script src="../vendor/js/owl.carousel.js"></script> 
+<script src="../vendor/js/jflickrfeed.js"></script> 
+<script src="../vendor/js/magnific-popup.js"></script> 
+<script src="../vendor/js/mediaelement-and-player.js"></script> 
+
+<!-- Theme Initializer --> 
+<script src="../vendor/js/theme.plugins.js"></script> 
+<script src="../vendor/js/theme.js"></script> 
+
+<!-- Current Page JS --> 
+<script src="../vendor/js/jquery.themepunch.tools.min.js"></script> 
+<script src="../vendor/js/jquery.themepunch.revolution.js"></script> 
+<script src="../vendor/js/jquery.flipshow.js"></script> 
+<script src="../vendor/js/view.home.js"></script> 
+
+<!-- Custom JS --> 
+<script src="../vendor/js/custom.js"></script> 
+<script type="text/javascript">
+		
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-42715764-5']);
+			_gaq.push(['_trackPageview']);
+		
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		$(function()
+		{
+$('.abcd').click(function(){
+	$('.abcd').removeClass("red").addClass("black");
+	$(this).removeClass("black").addClass("red");
+});
+		});
+		</script>
+</body>
+</html>
