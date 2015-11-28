@@ -2,24 +2,23 @@
     CodeFile="Add-User.aspx.cs" Inherits="AdminPanel_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-   
-      <script>
-          $(function () {
-              $('#ContentPlaceHolder1_FormView1_UserNameTextBox').keyup(function () {
-                  $val = $(this).val();
-                  $('#ContentPlaceHolder1_FormView1_TextBox2').val($val.toLowerCase().replace(/ /g, "_").replace(/&/g, "and").replace(/\W/g, "").replace(/_/g, "-"));
-              });
-          });
-</script>
+
+    <script>
+        $(function () {
+            $('#ContentPlaceHolder1_FormView1_UserNameTextBox').keyup(function () {
+                $val = $(this).val();
+                $('#ContentPlaceHolder1_FormView1_TextBox2').val($val.toLowerCase().replace(/ /g, "_").replace(/&/g, "and").replace(/\W/g, "").replace(/_/g, "-"));
+            });
+        });
+    </script>
 </asp:Content>
 <%@ Register Assembly="CKEditor.NET" Namespace="CKEditor.NET" TagPrefix="CKEditor" %>
 <asp:Content ID="title" ContentPlaceHolderID="title" runat="Server">
-
-Create/Edit User
+    Create/Edit User
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-     <%--  <div class="uifw-message information "><p class="uifw-message-header">Manage Users</p><p>Here you can manage Users.</p></div> --%>
-      
+    <%--  <div class="uifw-message information "><p class="uifw-message-header">Manage Users</p><p>Here you can manage Users.</p></div> --%>
+
     <section class="uiifw-layout-section">
                 <header class="cf"><b> Create And Edit User  </b> </header>
           <div class="body org ">
@@ -279,8 +278,8 @@ Create/Edit User
       </div>
       </div>
       </section>
-    </asp:Content>
-    <asp:Content ID="Content3" ContentPlaceHolderID="ScriptsCPH" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ScriptsCPH" runat="Server">
     <script type="text/javascript">
         CKEDITOR.replace('ContentPlaceHolder1_FormView1_CKEditor1', {
             "extraPlugins": "imagebrowser",
